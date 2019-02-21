@@ -13,7 +13,7 @@ $factory->define(Page::class, function (Faker $faker) {
         'title'           => $title,
         'page_slug'       => str_slug($title),
         'description'     => $faker->paragraph,
-        'cannonical_link' => 'http://localhost:8000/'.str_slug($title),
+        'cannonical_link' => 'http://127.0.0.1:8000/'.str_slug($title),
         'created_by'      => function () {
             return factory(User::class)->create()->id;
         },

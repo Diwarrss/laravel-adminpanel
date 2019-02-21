@@ -41,7 +41,7 @@ return [
      * Socialite Credentials
      * Redirect URL's need to be the same as specified on each network you set up this application on
      * as well as conform to the route:
-     * http://localhost/public/login/SERVICE
+     * http://127.0.0.1:8000/public/login/SERVICE
      * Where service can github, facebook, twitter, google, linkedin, or bitbucket
      * Docs: https://github.com/laravel/socialite
      * Make sure 'scopes' and 'with' are arrays, if their are none, use empty arrays []

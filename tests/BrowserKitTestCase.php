@@ -54,7 +54,7 @@ abstract class BrowserKitTestCase extends BaseTestCase
     {
         parent::setUp();
 
-        $this->baseUrl = config('app.url', 'http://localhost:8000');
+        $this->baseUrl = config('app.url', 'http://127.0.0.1:8000');
 
         // Set up the database
         Artisan::call('migrate:refresh');

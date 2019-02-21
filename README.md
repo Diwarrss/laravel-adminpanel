@@ -98,7 +98,7 @@ Start the local development server
 
 
 
-You can now access the server at http://localhost:8000
+You can now access the server at http://127.0.0.1:8000
 
 **Command list**
 
